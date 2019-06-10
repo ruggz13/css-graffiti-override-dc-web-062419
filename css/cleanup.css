@@ -2,9 +2,28 @@
 .tag-1{
   background: : url(../images/tag-1.png) no-repeat;
   z-index: 7;
-  display: none;
+  display: block;
 }
 
 #wall .tag-1{
+  display: none;
+}
+
+#tag-2{
+  display: none;
+}
+#tag-3{
+  display: none;
+}
+
+.parent #tag-5{
+  display: none;
+}
+
+.parent + #tag-6{
+  display: none;
+}
+
+.parent #tag-7{
   display: none;
 }
